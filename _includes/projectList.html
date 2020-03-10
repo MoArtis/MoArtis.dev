@@ -1,0 +1,52 @@
+<div class="container-fluid">
+    {% for project in include.projects %}
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="project-title">{{ project.name }}</h3>
+                <h4>
+                    {{ project.context }},
+                    {{ project.year }}
+                    -
+                    {{ project.platforms }}
+                </h4>
+            </div>
+        </div>
+        <div class="project row">
+            <a class="anchor" id="{{ project.id }}"></a>
+            <div class="col-md-6">
+                {% if project.video %}
+                    <video autoplay="" class="img project-img" loop="" poster="">
+                        <source src="{{ project.video }}" type="video/webm">
+                    </video>
+                {% else %}
+                    <img alt="" class="img project-img" src="{{ project.image }}">
+                {% endif %}
+                {% for link in project.links %}
+                    {% if link.isModal %}
+                        <a class="mt-20 btn btn-primary btn-lg" href="{{ link.link }}" data-toggle="modal" href="#{{ link.modalId }}">
+                            {{ link.description }}
+                            {% if link.isVideo %}
+                                <i class="fab fa-youtube"></i>
+                            {% else %}
+                                <!-- ▶ -->
+                            {% endif %}
+                        </a>
+                        {% include modal.html id=link.modalId isVideo=link.isVideo src=link.link caption=link.caption %}
+                    {% else %}
+                        <a class="mt-20 btn btn-primary btn-lg" href="{{ link.link }}">
+                            {{ link.description }}
+                            <!-- ▶ -->
+                        </a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <div class="col-md-6">
+                <div class="project-description">
+                    {% assign descriptionPath = "projects/" | append: project.id | append: ".html" %}
+                    {% include {{ descriptionPath }} gallery=project.gallery %}
+                </div>
+            </div>
+        </div>
+        <hr>
+    {% endfor %}
+</div>

@@ -6126,7 +6126,7 @@ button.close {
 .carousel-inner > .active.right {
   left: 100%;
 }
-.carousel-control {
+/* .carousel-control {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -6197,7 +6197,7 @@ button.close {
 }
 .carousel-control .icon-next:before {
   content: '\203a';
-}
+} */
 .carousel-indicators {
   position: absolute;
   bottom: 10px;

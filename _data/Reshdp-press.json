@@ -1,0 +1,24 @@
+{
+    "articles": [
+        {
+            "order": 0,
+            "source": "PC Gamer",
+            "title": "Resident Evil 3 fans have made an impressive HD mod for it",
+            "url": "https://www.pcgamer.com/resident-evil-3-fans-have-made-an-impressive-hd-mod-for-it/",
+            "thumbnail": "/img/reshdp_press/pcgamer.jfif"
+        },
+        {
+            "title": "https://www.pcgamer.com/resident-evil-3-fans-have-made-an-impressive-hd-mod-for-it/",
+            "source": "",
+            "url": "",
+            "thumbnail": ""
+        },
+        {
+            "title": "https://www.pcgamer.com/resident-evil-3-fans-have-made-an-impressive-hd-mod-for-it/",
+            "source": "",
+            "url": "",
+            "thumbnail": "",
+            "isHidden": "true"
+        }
+    ]
+}

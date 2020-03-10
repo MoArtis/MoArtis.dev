@@ -1,0 +1,43 @@
+<!--Modal: Name-->
+<div class="modal modal-flex fade" id="{{ include.id }}" tabindex="-1" role="dialog" aria-labelledby="modalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-flex" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+
+                {% if include.isVideo %}
+                <script>
+                    $(".modal").on("hide.bs.modal", function (e) {
+                        // a poor man's stop video
+                        console.log("Cool!");
+                        $("#{{ include.id }}-video").attr("src", "{{ include.src }}");
+                    });    
+                </script>
+
+                <div class="modal-video embed-responsive embed-responsive-16by9 z-depth-1-half">
+                    <iframe id="{{ include.id }}-video" class="embed-responsive-item" src="{{ include.src }}"
+                        allowfullscreen></iframe>
+                </div>
+                {% else %}
+                <img src="{{ include.src }}" alt="{{ include.caption }}">
+                {% endif %}
+
+            </div>
+
+            <!--Footer-->
+            <div class="modal-footer container-fluid">
+                <div class="text-center">
+                    <span class="mr-4">{{ include.caption }}</span>
+                </div>
+                <button type="button" class="btn-lg btn btn-primary ml-4" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+        <!--/.Content-->
+
+    </div>
+</div>

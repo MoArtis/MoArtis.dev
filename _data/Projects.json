@@ -1,0 +1,158 @@
+{
+    "proGames": [
+        {
+            "id": "wof",
+            "name": "Wheel of Fortune",
+            "context": "Ubisoft Chengdu",
+            "year": "2017",
+            "platforms": "PS4, XOne, Switch",
+            "image": "/img/wof.jfif",
+            "links": [
+                {
+                    "link": "https://www.ubisoft.com/en-us/game/wheel-of-fortune/",
+                    "description": "Official site"
+                },
+                {
+                    "isModal": true,
+                    "modalId": "wof_trailer",
+                    "isVideo": "true",
+                    "caption": "",
+                    "link": "https://www.youtube.com/embed/jEd1ts8lT9M",
+                    "description": "Trailer"
+                },
+                {
+                    "isModal": true,
+                    "modalId": "wof_letsplay",
+                    "isVideo": "true",
+                    "caption": "",
+                    "link": "https://www.youtube.com/embed/OMO122NiWvI",
+                    "description": "Let's play"
+                }
+            ]
+        },
+        {
+            "id": "rabbidscr",
+            "name": "Rabbids Crazy Rush",
+            "context": "Ubisoft Chengdu",
+            "year": "2015-2016",
+            "platforms": "iOS",
+            "image": "/img/rabbidscr.jpg",
+            "links": [
+                {
+                    "link": "https://www.ubisoft.com/en-us/game/rabbids-crazy-rush/",
+                    "description": "Official site"
+                }
+            ]
+        },
+        {
+            "id": "mmdoc",
+            "name": "Might & Magic: Duel of Champions",
+            "context": "Ubisoft Quebec",
+            "year": "2012-2014",
+            "platforms": "PS3, X360, PC, iOS",
+            "image": "/img/mmdoc.jpg",
+            "links": [
+                {
+                    "link": "https://www.ubisoft.com/en-us/game/might-and-magic-duel-of-champions/",
+                    "description": "Official site"
+                },
+                {
+                    "isModal": true,
+                    "modalId": "mmdoc_overview",
+                    "isVideo": "true",
+                    "caption": "",
+                    "link": "https://www.youtube.com/embed/mT9Ih7c9shY",
+                    "description": "Overview"
+                },
+                {
+                    "link": "https://duelofchampions.gamepedia.com/Duel_of_Champions_Wiki",
+                    "description": "Wiki"
+                }
+            ],
+            "gallery": {
+                "id": "mmdoc-cards",
+                "caption": "",                
+                "content": [
+                    {
+                        "url": "/img/mmdoc_cards/Rakshasa_Raja.png",
+                        "caption": "Rakshasa Raja"
+                    },
+                    {
+                        "url": "/img/mmdoc_cards/Kal-Azaar,_Invoker_of_Agony.png",
+                        "caption": "Kal-Azaar, Invoker of Agony"
+                    },
+                    {
+                        "url": "/img/mmdoc_cards/Throne_of_Renewal.png",
+                        "caption": "Throne of Renewal"
+                    },
+                    {
+                        "url": "/img/mmdoc_cards/Mother_Namtaru,_Invoker_of_Death.png",
+                        "caption": "Mother Namtaru, Invoker of Death"
+                    }
+                ]
+            }
+        }
+    ],
+    "mods": [
+        {
+            "id": "reshdp",
+            "name": "Resident Evil Seamless HD Project",
+            "context": "RESHDP Team",
+            "year": "2018-2019",
+            "platforms": "PC (via Dolphin)",
+            "video": "/img/reshdp.webm",
+            "links": [
+                {
+                    "link": "https://www.reshdp.com/",
+                    "description": "Official site"
+                },
+                {
+                    "isModal": true,
+                    "modalId": "reshdp_re3shdp",
+                    "isVideo": "true",
+                    "caption": "",
+                    "link": "https://www.youtube.com/embed/OrRq9oA_Tq8",
+                    "description": "RE3SHDP"
+                }
+            ]
+        },
+        {
+            "id": "rcgmod",
+            "name": "River City Girls - UserXpMod",
+            "context": "Myself",
+            "year": "2019-2020",
+            "platforms": "PC",
+            "video": "/img/reshdp.webm",
+            "links": [
+                {
+                    "link": "https://github.com/MoArtis/RCGMod",
+                    "description": "Github"
+                },
+                {
+                    "link": "https://steamcommunity.com/app/1049320/discussions/0/1633040337762777417/",
+                    "description": "Steam thread"
+                }
+            ]
+        }
+    ],
+    "prototypes": [
+        {
+            "id": "magichat",
+            "name": "Magic Hat",
+            "context": "Sparkling Vinegar",
+            "year": 2020,
+            "description": "This is random text to make sure the description is working! But now even longer text!! breakline NOW! \\n maybe I should use &lt;br&gt; <br> tada!",
+            "video": "/img/BulletHell.webm",
+            "links": [
+                {
+                    "link": "test.com",
+                    "description": "test"
+                },
+                {
+                    "link": "youtube.com",
+                    "description": "youtube"
+                }
+            ]
+        }
+    ]
+}
