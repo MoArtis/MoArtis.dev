@@ -122,7 +122,7 @@
             "context": "Myself",
             "year": "2019-2020",
             "platforms": "PC",
-            "video": "/img/reshdp.webm",
+            "video": "/img/rcgmod.jpg",
             "links": [
                 {
                     "link": "https://github.com/MoArtis/RCGMod",
@@ -139,6 +139,42 @@
         {
             "id": "magichat",
             "name": "Magic Hat",
+            "context": "Sparkling Vinegar",
+            "year": 2020,
+            "description": "This is random text to make sure the description is working! But now even longer text!! breakline NOW! \\n maybe I should use &lt;br&gt; <br> tada!",
+            "video": "/img/BulletHell.webm",
+            "links": [
+                {
+                    "link": "test.com",
+                    "description": "test"
+                },
+                {
+                    "link": "youtube.com",
+                    "description": "youtube"
+                }
+            ]
+        },
+        {
+            "id": "tod",
+            "name": "Type or Die",
+            "context": "Sparkling Vinegar",
+            "year": 2020,
+            "description": "This is random text to make sure the description is working! But now even longer text!! breakline NOW! \\n maybe I should use &lt;br&gt; <br> tada!",
+            "video": "/img/BulletHell.webm",
+            "links": [
+                {
+                    "link": "test.com",
+                    "description": "test"
+                },
+                {
+                    "link": "youtube.com",
+                    "description": "youtube"
+                }
+            ]
+        },
+        {
+            "id": "robocombo",
+            "name": "Robo Combo",
             "context": "Sparkling Vinegar",
             "year": 2020,
             "description": "This is random text to make sure the description is working! But now even longer text!! breakline NOW! \\n maybe I should use &lt;br&gt; <br> tada!",

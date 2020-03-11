@@ -39,6 +39,25 @@ layout: null
   }
 }
 
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 720px;
+    margin: 30px auto;
+  }
+  .modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+  }
+  .modal-sm {
+    width: 300px;
+  }
+}
+@media (min-width: 992px) {
+  .modal-lg {
+    width: 980px;
+  }
+}
+
 /* PROJECTS */
 
 .project h4 {
@@ -77,8 +96,8 @@ layout: null
 
 /* THUMBNAIL */
 
-.thumbnail > .caption {
-  height: 200px;
+.thumbnail .caption {
+  height: 150px;
 }
 
 .thumbnail .caption > * {
@@ -102,6 +121,11 @@ layout: null
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.no-overflow-vertical {
+  overflow-y: hidden;
+  height: 100px;
 }
 
 /* HEXAGON */
@@ -206,12 +230,12 @@ layout: null
   bottom: 0;
   left: 0;
   width: 15%;
-  font-size: 26px;
+  font-size: 40px;
   color: #fff;
   text-align: center;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
-  filter: alpha(opacity=50);
-  opacity: .5;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .8);
+  filter: alpha(opacity=60);
+  opacity: .6;
 }
 .carousel-control.left {
   background-image: none;

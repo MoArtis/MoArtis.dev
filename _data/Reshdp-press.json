@@ -1,24 +1,97 @@
 {
     "articles": [
         {
-            "order": 0,
-            "source": "PC Gamer",
-            "title": "Resident Evil 3 fans have made an impressive HD mod for it",
+            "title": "PC Gamer",
+            "caption": "Resident Evil 3 fans have made an impressive HD mod for it",
             "url": "https://www.pcgamer.com/resident-evil-3-fans-have-made-an-impressive-hd-mod-for-it/",
-            "thumbnail": "/img/reshdp_press/pcgamer.jfif"
+            "img": ""
         },
         {
-            "title": "https://www.pcgamer.com/resident-evil-3-fans-have-made-an-impressive-hd-mod-for-it/",
-            "source": "",
-            "url": "",
-            "thumbnail": ""
+            "title": "Kotaku",
+            "caption": "Fans Are Remastering Resident Evil 3: Nemesis",
+            "url": "https://kotaku.com/fans-are-remastering-resident-evil-3-nemesis-1836381859",
+            "img": ""
         },
         {
-            "title": "https://www.pcgamer.com/resident-evil-3-fans-have-made-an-impressive-hd-mod-for-it/",
-            "source": "",
-            "url": "",
-            "thumbnail": "",
-            "isHidden": "true"
+            "title": "Polygon",
+            "caption": "Resident Evil 3 ‘remastered’ with fan-made HD upgrade",
+            "url": "https://www.polygon.com/2019/7/13/20693142/resident-evil-3-remaster-remake-hd-upgrade-emulator-gamecube-pc-video",
+            "img": ""
+        },
+        {
+            "title": "Eurogamer",
+            "caption": "This impressive RE3 HD texture pack helps with the wait for Capcom's inevitable remake",
+            "url": "https://www.eurogamer.net/articles/2019-07-13-this-impressive-resident-evil-3-hd-texture-pack-helps-with-the-wait-for-capcoms-inevitable-remake#comments",
+            "img": ""
+        },
+        {
+            "title": "Destructoid",
+            "caption": "While we wait for the inevitable Resident Evil 3 remake, there's this fan-made HD remaster",
+            "url": "https://www.destructoid.com/while-we-wait-for-the-inevitable-resident-evil-3-remake-there-s-this-fan-made-hd-remaster-560796.phtml",
+            "img": ""
+        },
+        {
+            "title": "Gameinformer",
+            "caption": "This Fan-Made HD Remaster For Resident Evil 3 Is Impressive",
+            "url": "https://www.gameinformer.com/2019/07/14/this-fan-made-hd-remaster-for-resident-evil-3-is-impressive",
+            "img": ""
+        },
+        {
+            "title": "Biohazard declassified",
+            "caption": "Resident Evil 3 Seamless HD Project Now Available",
+            "url": "https://www.biohazardcast.com/resident-evil-3-seamless-hd/",
+            "img": ""
+        },
+        {
+            "title": "Gameblog",
+            "caption": "Resident Evil 3 : Une impressionnante remasterisation pour la version GameCube",
+            "url": "http://www.gameblog.fr/news/84553-resident-evil-3-une-impressionnante-remasterisation-pour-la-",
+            "img": ""
+        },
+        {
+            "title": "Techspot",
+            "caption": "Escaping from Raccoon City never looked this good",
+            "url": "https://www.techspot.com/news/80954-resident-evil-3-gets-fan-made-hd-upgrade.html",
+            "img": ""
+        },
+        {
+            "title": "BloodyDisgusting",
+            "caption": "Fan Project Remasters ‘Resident Evil 3’ Via Machine Learning",
+            "url": "https://bloody-disgusting.com/video-games/3572615/fan-project-remasters-resident-evil-3-via-machine-learning/",
+            "img": ""
+        },
+        {
+            "title": "Goombastomp",
+            "caption": "Waiting for the ‘Resident Evil 3’ Remake? Here’s Something to Tide You Over",
+            "url": "https://goombastomp.com/resident-evil-3-mod/",
+            "img": ""
+        },
+        {
+            "title": "Dead Entertainment",
+            "caption": "Re-Experience Resident Evil 3: Nemesis with HD Graphics",
+            "url": "https://deadentertainment.com/2019/07/16/re-experience-resident-evil-3-nemesis-with-hd-graphics/",
+            "img": ""
+        },
+        {
+            "title": "TheGamer",
+            "caption": "Fans Give Resident Evil 3 HD Enhancement",
+            "url": "https://www.thegamer.com/resident-evil-3-remaster/",
+            "img": "",
+            "isHidden": true
+        },
+        {
+            "title": "Atomix",
+            "caption": "Hay una remasterización de Resident Evil 3 hecha por fans",
+            "url": "https://atomix.vg/hay-una-remasterizacion-de-resident-evil-3-hecha-por-fans/",
+            "img": "",
+            "isHidden": true
+        },
+        {
+            "title": "Kotaku",
+            "caption": "Remastering Resident Evil Games Kept This Indie Developer From Giving Up",
+            "url": "https://kotaku.com/remastering-resident-evil-games-kept-this-indie-develop-1836980014",
+            "img": "",
+            "isHidden": true
         }
     ]
 }
