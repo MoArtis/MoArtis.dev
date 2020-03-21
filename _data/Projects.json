@@ -113,6 +113,10 @@
                     "caption": "",
                     "link": "https://www.youtube.com/embed/OrRq9oA_Tq8",
                     "description": "RE3SHDP"
+                },
+                {
+                    "link": "https://discord.gg/HCZWV6q",
+                    "description": "Discord"
                 }
             ]
         },
@@ -122,7 +126,7 @@
             "context": "Myself",
             "year": "2019-2020",
             "platforms": "PC",
-            "video": "/img/rcgmod.jpg",
+            "image": "/img/rcgmod.jpg",
             "links": [
                 {
                     "link": "https://github.com/MoArtis/RCGMod",
@@ -141,16 +145,16 @@
             "name": "Magic Hat",
             "context": "Sparkling Vinegar",
             "year": 2020,
-            "description": "This is random text to make sure the description is working! But now even longer text!! breakline NOW! \\n maybe I should use &lt;br&gt; <br> tada!",
+            "platforms": "PC",
             "video": "/img/BulletHell.webm",
             "links": [
                 {
-                    "link": "test.com",
-                    "description": "test"
+                    "link": "https://moartis.github.io/MagicHatBuilds/builds/",
+                    "description": "Builds"
                 },
                 {
-                    "link": "youtube.com",
-                    "description": "youtube"
+                    "link": "https://moartis.itch.io/magic-hat",
+                    "description": "Solo 72 hours Gamejam"
                 }
             ]
         },
@@ -158,17 +162,13 @@
             "id": "tod",
             "name": "Type or Die",
             "context": "Sparkling Vinegar",
-            "year": 2020,
-            "description": "This is random text to make sure the description is working! But now even longer text!! breakline NOW! \\n maybe I should use &lt;br&gt; <br> tada!",
-            "video": "/img/BulletHell.webm",
+            "year": 2019,
+            "platforms": "PC",
+            "image": "/img/tod.jpg",
             "links": [
                 {
-                    "link": "test.com",
-                    "description": "test"
-                },
-                {
-                    "link": "youtube.com",
-                    "description": "youtube"
+                    "link": "https://moartis.github.io/TypeOrDieWeeklyBuilds",
+                    "description": "Builds"
                 }
             ]
         },
@@ -176,17 +176,21 @@
             "id": "robocombo",
             "name": "Robo Combo",
             "context": "Sparkling Vinegar",
-            "year": 2020,
-            "description": "This is random text to make sure the description is working! But now even longer text!! breakline NOW! \\n maybe I should use &lt;br&gt; <br> tada!",
-            "video": "/img/BulletHell.webm",
+            "year": 2018,
+            "platforms": "PC",
+            "image": "/img/robocombo.jpg",
             "links": [
                 {
-                    "link": "test.com",
-                    "description": "test"
+                    "isModal": true,
+                    "modalId": "robocombo-proto-video",
+                    "isVideo": "true",
+                    "caption": "",
+                    "link": "https://www.youtube.com/embed/QisNB_NfMq4",
+                    "description": "Prototype video"
                 },
                 {
-                    "link": "youtube.com",
-                    "description": "youtube"
+                    "link": "/assets/RoboCombo-20180924.zip",
+                    "description": "PC Build"
                 }
             ]
         }

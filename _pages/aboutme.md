@@ -5,8 +5,10 @@ header_title: Welcome!
 header_subtitle:  I'm Mathieu Philippe.<br>Game Designer 🎲 and Code lover. 👩‍💻
 use-site-title: true
 permalink: /aboutme/
-bigimg: /img/IMG_20190820_091812.jpg
+# bigimg: /img/IMG_20190820_091812.jpg
 ---
+
+I'm a passionate director who loves the industry and working with a team to make great games. I've a strong design and creative mind and I love to challenge my ideas with other people so they can evolve for the best. I'm a positive and optimistic person, always willing to tackle challenges and do my best.
 
 My main skills are:
 

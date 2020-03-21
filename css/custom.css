@@ -2,6 +2,27 @@
 layout: null
 ---
 
+body {
+  font-family: 'MontserratRegular', 'Times New Roman', serif;
+  font-size: 16px;
+  color: {{ site.text-col }};
+  position: relative;
+  background-color: {{ site.page-col }};
+  {% if site.page-img %}
+  background-image: url({{ site.page-img | relative_url }});
+  background-attachment: fixed;
+  {% endif %}
+}
+
+p {
+  line-height: 1.5;
+  margin: 30px 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'MontserratBlack', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 .mt-10 {
     margin-top: 10px;
 }
@@ -41,8 +62,8 @@ layout: null
 
 @media (min-width: 768px) {
   .modal-dialog {
-    width: 720px;
-    margin: 30px auto;
+    width: 738px;
+    margin: 10px auto;
   }
   .modal-content {
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
@@ -54,7 +75,7 @@ layout: null
 }
 @media (min-width: 992px) {
   .modal-lg {
-    width: 980px;
+    width: 962px;
   }
 }
 
@@ -66,7 +87,7 @@ layout: null
 }
 
 .project-section .project-section-title {
-    font-size: 30px;
+    font-size: 36px;
     margin-top: 0;
 }
 
@@ -78,7 +99,7 @@ layout: null
 }
 
 .project-section {
-    padding: 20px 0 0 0;
+    padding: 35px 0 0 0;
 }
 
 .project-description > p {
@@ -94,7 +115,25 @@ layout: null
   width: 100%;
 }
 
+.project > hr {
+  color: {{ site.text-col }};
+}
+
+.project-section > hr {
+  color: {{ site.text-col }};
+}
+
 /* THUMBNAIL */
+
+/* @media (min-width: 768px) {
+  .thumbnail .caption > h3 {
+    font-size: 20px;
+  }
+} */
+
+.thumbnail .caption > h3 {
+  font-size: 20px;
+}
 
 .thumbnail .caption {
   height: 150px;
@@ -156,7 +195,7 @@ layout: null
   
 .hexagon-container {
     clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-    background-color: #EAEAEA;
+    background-color: {{ site.page-col }};
     height: 0px;
     width: 110px;
 
