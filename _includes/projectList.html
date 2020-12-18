@@ -17,10 +17,10 @@
             <div class="col-md-6">
                 {% if project.video %}
                     <video autoplay="" class="img project-img" loop="" poster="">
-                        <source src="{{ project.video }}" type="video/webm">
+                        <source src="{{ project.video | relative_url }}" type="video/webm">
                     </video>
                 {% else %}
-                    <img alt="" class="img project-img" src="{{ project.image }}">
+                    <img alt="" class="img project-img" src="{{ project.image | relative_url }}">
                 {% endif %}
                 {% for link in project.links %}
                     {% if link.isModal %}
