@@ -6,7 +6,7 @@
             "context": "Ubisoft Chengdu",
             "year": "2017",
             "platforms": "PS4, XOne, Switch",
-            "image": "/img/wof.jfif",
+            "image": "/img/projects/wof.jfif",
             "links": [
                 {
                     "link": "https://www.ubisoft.com/en-us/game/wheel-of-fortune/",
@@ -36,7 +36,7 @@
             "context": "Ubisoft Chengdu",
             "year": "2015-2016",
             "platforms": "iOS",
-            "image": "/img/rabbidscr.jpg",
+            "image": "/img/projects/rabbidscr.jpg",
             "links": [
                 {
                     "link": "https://www.ubisoft.com/en-us/game/rabbids-crazy-rush/",
@@ -50,7 +50,7 @@
             "context": "Ubisoft Quebec",
             "year": "2012-2014",
             "platforms": "PS3, X360, PC, iOS",
-            "image": "/img/mmdoc.jpg",
+            "image": "/img/projects/mmdoc.jpg",
             "links": [
                 {
                     "link": "https://www.ubisoft.com/en-us/game/might-and-magic-duel-of-champions/",
@@ -100,7 +100,7 @@
             "context": "RESHDP Team",
             "year": "2018-2019",
             "platforms": "PC (via Dolphin)",
-            "video": "/img/reshdp.webm",
+            "video": "/img/projects/reshdp.webm",
             "links": [
                 {
                     "link": "https://www.reshdp.com/",
@@ -126,7 +126,7 @@
             "context": "Myself",
             "year": "2019-2020",
             "platforms": "PC",
-            "image": "/img/rcgmod.jpg",
+            "image": "/img/projects/rcgmod.jpg",
             "links": [
                 {
                     "link": "https://github.com/MoArtis/RCGMod",
@@ -146,7 +146,7 @@
             "context": "Sparkling Vinegar",
             "year": 2020,
             "platforms": "PC",
-            "video": "/img/BulletHell.webm",
+            "video": "/img/projects/BulletHell.webm",
             "links": [
                 {
                     "link": "https://moartis.github.io/MagicHatBuilds/builds/",
@@ -164,7 +164,7 @@
             "context": "Sparkling Vinegar",
             "year": 2019,
             "platforms": "PC",
-            "image": "/img/tod.jpg",
+            "image": "/img/projects/tod.jpg",
             "links": [
                 {
                     "link": "https://moartis.github.io/TypeOrDieWeeklyBuilds",
@@ -178,7 +178,7 @@
             "context": "Sparkling Vinegar",
             "year": 2018,
             "platforms": "PC",
-            "image": "/img/robocombo.jpg",
+            "image": "/img/projects/robocombo.jpg",
             "links": [
                 {
                     "isModal": true,
@@ -189,6 +189,7 @@
                     "description": "Prototype video"
                 },
                 {
+				    "isRelative": true,
                     "link": "/assets/RoboCombo-20180924.zip",
                     "description": "PC Build"
                 }

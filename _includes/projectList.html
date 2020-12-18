@@ -34,7 +34,7 @@
                         </a>
                         {% include modal.html id=link.modalId isVideo=link.isVideo src=link.link caption=link.caption %}
                     {% else %}
-                        <a class="mt-20 btn btn-primary btn-lg" href="{{ link.link }}">
+                        <a class="mt-20 btn btn-primary btn-lg" href={% if link.isRelative %}"{{ link.link | relative_url }}"{% else %}"{{ link.link }}"{% endif %}>
                             {{ link.description }}
                             <!-- ▶ -->
                         </a>

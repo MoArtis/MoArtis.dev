@@ -13,7 +13,6 @@
                 <script>
                     $(".modal").on("hide.bs.modal", function (e) {
                         // a poor man's stop video
-                        console.log("Cool!");
                         $("#{{ include.id }}-video").attr("src", "{{ include.src }}");
                     });    
                 </script>
