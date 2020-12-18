@@ -5,7 +5,7 @@ use-site-title: false
 redirect_to_custom : "/aboutme/"
 ---
 
-{% assign redirect_url = page.redirect_to_custom | prepend: site.url %}
+{% assign redirect_url = page.redirect_to_custom | prepend: site.url | relative_url %}
 <!DOCTYPE html>
 <html lang="en-US">
   <meta charset="utf-8">
@@ -15,5 +15,5 @@ redirect_to_custom : "/aboutme/"
   <meta http-equiv="refresh" content="0; url={{ redirect_url }}">
   <meta name="robots" content="noindex">
   <h1>Redirecting&hellip;</h1>
-  <a href="{{ redirect_url | relative_url }}">Click here if you are not redirected.</a>
+  <a href="{{ redirect_url }}">Click here if you are not redirected.</a>
 </html>
