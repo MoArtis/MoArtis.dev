@@ -2,6 +2,28 @@
 layout: null
 ---
 
+.btn-primary {
+  color: #fff;
+  background-color: #59a9e8;
+  border-color: #5387ca;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #2979b8;
+  border-color: #13579a;
+}
+
+img.profile {
+  border: 4px solid {{ site.text-col }};
+  border-radius: 10%;
+}
+
 body {
   font-family: 'MontserratRegular', 'Times New Roman', serif;
   font-size: 16px;
@@ -21,6 +43,40 @@ p {
 
 h1,h2,h3,h4,h5,h6 {
   font-family: 'MontserratBlack', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.skill {
+  margin-top: 10px;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 220px;
+  padding: 0px 20px;
+}
+
+.skill-image {
+  margin-left: 30px;
+  width: 120px;
+  background-image: none;
+  background-color: {{ site.text-col }};
+  border: 1px solid transparent;
+  border-radius: 100%;
+  padding: 12px;
+}
+
+.skill-image img {
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+	vertical-align: middle;
+}
+
+.skill-caption {
+	display: block;
+}
+
+.centered {
+  text-align: center;
 }
 
 .mt-10 {
@@ -231,7 +287,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .navbar-brand {
     padding: 5px 15px;
-    width: 300px;
+    width: 310px;
 }
 
 .navbar-title:hover,
@@ -341,4 +397,12 @@ h1,h2,h3,h4,h5,h6 {
 
 .modal-flex {
   text-align: center;
+}
+
+/* BLOG */
+
+.coming-soon-msg {
+	height: 352px;
+	width: 100%;
+	text-align: center;
 }
