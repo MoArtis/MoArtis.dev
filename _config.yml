@@ -14,7 +14,7 @@ description: A virtual trinket bowl for my games, projects and my thoughts. Also
 # url: "https://www.MoArtis.com"
 
 # baseurl should be an empty string
-# baseurl: ""
+baseurl: "/MoArtis.com"
 
 # --- Navigation bar options --- #
 
