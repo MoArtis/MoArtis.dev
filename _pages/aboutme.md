@@ -48,7 +48,7 @@ Check out [my projects](/projects) and please consider [hiring me](#hire-me). ðŸ
 	
 	<div class="skill">
 		<div class="skill-image">
-			<img src="{{ 'img/emojis/Computer.png' | relative_url }}" />
+			<img src="{{ 'img/emojis/computer.png' | relative_url }}" />
 		</div>
 		<h4 class="skill-caption">Programming</h4>
 	</div>

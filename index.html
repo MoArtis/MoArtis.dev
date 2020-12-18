@@ -5,7 +5,7 @@ use-site-title: false
 redirect_to_custom : "/aboutme/"
 ---
 
-{% assign redirect_url = page.redirect_to_custom | prepend: site.url | relative_url %}
+{% assign redirect_url = page.redirect_to_custom | prepend: site.url | append: site.baseurl %}
 <!DOCTYPE html>
 <html lang="en-US">
   <meta charset="utf-8">
