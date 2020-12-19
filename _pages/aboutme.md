@@ -1,11 +1,11 @@
 ---
 layout: page
 title: About me
+meta-description: I'm Mathieu Philippe.<br>Game Designer 🎲 and Code enthusiast. 👩‍💻
 header_title: Welcome!
 header_subtitle:  I'm Mathieu Philippe.<br>Game Designer 🎲 and Code enthusiast. 👩‍💻
 use-site-title: true
 permalink: /aboutme/
-# bigimg: /img/IMG_20190820_091812.jpg
 ---
 
 ![me]({{ "/img/profile.jpg" | relative_url }}){: .center-block :}{: .profile :}
