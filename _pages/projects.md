@@ -3,6 +3,7 @@ layout: page
 title: Projects
 noheader: true
 use-site-title: true
+meta-description: A selection of games, tools and mods I worked on.
 permalink: /projects/
 ---
 
