@@ -1,0 +1,83 @@
+{
+    "pb": [
+        {
+            "section": "Interaction",
+			"folder": "/img/heartworm/pb/Interaction/",
+            "videos": [
+                {
+                    "name": "pb-Interaction-LockPuzzle.mp4",
+                    "description": "Classic Keypad lock puzzle",
+					"type": "mp4"
+                },
+				{
+                    "name": "pb-InsertSystem-Showcase.mp4",
+                    "description": "Dynamic Camera Insert system",
+					"type": "mp4"
+                },
+				{
+                    "name": "Parabiosis-InteractionScene-Tree.mp4",
+                    "description": "Falling Tree event example",
+					"type": "mp4"
+                }
+            ]
+        },
+        {
+            "section": "Combat",
+			"folder": "/img/heartworm/pb/combat/",
+            "videos": [
+                {
+                    "name": "pb-Machette-ChargedAttack.mp4",
+                    "description": "Melee Combat - Charged Attack",
+					"type": "mp4"
+                },
+				{
+                    "name": "pb-StatusGroup-DynamicBehavior-StanceBreak.mp4",
+                    "description": "AI - Dynamic Behavior",
+					"type": "mp4"
+                },
+				{
+                    "name": "pb-CombatSystem-StaggerPushMove.mp4",
+                    "description": "Melee Combat - Blocking and Push Move",
+					"type": "mp4"
+                },
+				{
+                    "name": "pb-Grab.mp4",
+                    "description": "Melee Combat - Grab",
+					"type": "mp4"
+                },
+				{
+                    "name": "pb-tool-MoveEditor.mp4",
+                    "description": "Custom Animation Events tool",
+					"type": "mp4"
+                }
+            ]
+        },
+        {
+            "section": "Effects",
+			"folder": "/img/heartworm/pb/Effects/",
+            "videos": [
+                {
+                    "name": "pb-effects-HitFeedbacks.mp4",
+                    "description": "Non-animated Hit Feedbacks",
+					"type": "mp4"
+                },
+				{
+                    "name": "pb-effects-HitReactions.mp4",
+                    "description": "Hit Reactions using Animation Rigging",
+					"type": "mp4"
+                },
+				{
+                    "name": "pb-effects-DanglingParts.mp4",
+                    "description": "Breaking and Dangling Parts",
+					"type": "mp4"
+                },
+				{
+                    "name": "pb-effects-RagdollBlending.mp4",
+                    "description": "Ragdoll Blending",
+					"type": "mp4"
+                }
+            ]
+        }
+	]
+}
+    
