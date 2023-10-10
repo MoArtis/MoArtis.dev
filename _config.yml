@@ -21,7 +21,7 @@ baseurl: "/MoArtis.com"
 # List of links in the navigation bar
 navbar-links:
   About me: "aboutme"
-  Projects: "projects"
+  Projects: "projects/commercial"
   # Projects:
    # - Games: "games"
    # - Mods: "mods"

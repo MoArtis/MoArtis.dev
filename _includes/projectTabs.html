@@ -1,0 +1,13 @@
+<div class="project-section container">
+	<div class="row centered">
+		<div class="col">
+		{% assign pages = site.pages | where_exp: "page", "page.category == 'projects'" %}
+		{% for p in pages %}
+			<a class="project-section-title mt-20 btn btn-tab btn-lg {% if page.title == p.title %}selected{% endif %}" href="{{ p.url | relative_url }}">{{ p.title }}</a>
+		{% endfor %}
+		</div>
+	</div>
+	<hr class="small">
+    <span class="project-section-subtitle">{{ page.meta-description }}</span>
+    <hr>
+</div>

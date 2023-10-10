@@ -1,0 +1,27 @@
+<div class="container-fluid">
+
+	{% for section in include.sections %}
+
+	<div class="row">
+		<div class="col-md-12">
+			
+			<h2 class="project-title">{{ section.section }}</h2>
+			<hr>
+			
+			{% for video in section.videos %}
+
+			<h4>{{ video.description }}</h4>
+			<!-- <video height="420" class="img" preload="auto" muted autoplay loop controls> -->
+			<video height="420" class="img" preload="auto" loop controls>
+				<source src="{{ section.folder | append: video.name | relative_url }}" type="video/{{ video.type }}">
+			</video>
+			<hr>
+		
+			{% endfor %}
+		
+		</div>
+	</div>
+	
+	{% endfor %}
+		
+</div>

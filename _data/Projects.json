@@ -1,50 +1,6 @@
 {
     "proGames": [
-        {
-            "id": "wof",
-            "name": "Wheel of Fortune",
-            "context": "Ubisoft Chengdu",
-            "year": "2017",
-            "platforms": "PS4, XOne, Switch",
-            "image": "/img/projects/wof.jfif",
-            "links": [
-                {
-                    "link": "https://www.ubisoft.com/en-us/game/wheel-of-fortune/",
-                    "description": "Official site"
-                },
-                {
-                    "isModal": true,
-                    "modalId": "wof_trailer",
-                    "isVideo": "true",
-                    "caption": "",
-                    "link": "https://www.youtube.com/embed/jEd1ts8lT9M",
-                    "description": "Trailer"
-                },
-                {
-                    "isModal": true,
-                    "modalId": "wof_letsplay",
-                    "isVideo": "true",
-                    "caption": "",
-                    "link": "https://www.youtube.com/embed/OMO122NiWvI",
-                    "description": "Let's play"
-                }
-            ]
-        },
-        {
-            "id": "rabbidscr",
-            "name": "Rabbids Crazy Rush",
-            "context": "Ubisoft Chengdu",
-            "year": "2015-2016",
-            "platforms": "iOS",
-            "image": "/img/projects/rabbidscr.jpg",
-            "links": [
-                {
-                    "link": "https://www.ubisoft.com/en-us/game/rabbids-crazy-rush/",
-                    "description": "Official site"
-                }
-            ]
-        },
-        {
+		{
             "id": "mmdoc",
             "name": "Might & Magic: Duel of Champions",
             "context": "Ubisoft Quebec",
@@ -91,6 +47,50 @@
                     }
                 ]
             }
+        },
+        {
+            "id": "wof",
+            "name": "Wheel of Fortune",
+            "context": "Ubisoft Chengdu",
+            "year": "2017",
+            "platforms": "PS4, XOne, Switch",
+            "image": "/img/projects/wof.jfif",
+            "links": [
+                {
+                    "link": "https://www.ubisoft.com/en-us/game/wheel-of-fortune/",
+                    "description": "Official site"
+                },
+                {
+                    "isModal": true,
+                    "modalId": "wof_trailer",
+                    "isVideo": "true",
+                    "caption": "",
+                    "link": "https://www.youtube.com/embed/jEd1ts8lT9M",
+                    "description": "Trailer"
+                },
+                {
+                    "isModal": true,
+                    "modalId": "wof_letsplay",
+                    "isVideo": "true",
+                    "caption": "",
+                    "link": "https://www.youtube.com/embed/OMO122NiWvI",
+                    "description": "Let's play"
+                }
+            ]
+        },
+        {
+            "id": "rabbidscr",
+            "name": "Rabbids Crazy Rush",
+            "context": "Ubisoft Chengdu",
+            "year": "2015-2016",
+            "platforms": "iOS",
+            "image": "/img/projects/rabbidscr.jpg",
+            "links": [
+                {
+                    "link": "https://www.ubisoft.com/en-us/game/rabbids-crazy-rush/",
+                    "description": "Official site"
+                }
+            ]
         }
     ],
     "mods": [
@@ -129,17 +129,61 @@
             "image": "/img/projects/rcgmod.jpg",
             "links": [
                 {
+                    "link": "https://steamcommunity.com/app/1049320/discussions/0/1633040337762777417/",
+                    "description": "Mod thread"
+                },
+				{
                     "link": "https://github.com/MoArtis/RCGMod",
                     "description": "Github"
                 },
-                {
-                    "link": "https://steamcommunity.com/app/1049320/discussions/0/1633040337762777417/",
-                    "description": "Steam thread"
-                }
+				{
+					"link": "https://store.steampowered.com/app/1049320/River_City_Girls/",
+					"description": "Steam page"
+				}
+            ]
+        },
+        {
+            "id": "lunacidmod",
+            "name": "Lunacid - Quality of Life Mod",
+            "context": "Myself",
+            "year": "2023",
+            "platforms": "PC",
+            "image": "/img/projects/lunacidmod.jpg",
+            "links": [
+				{
+                    "link": "https://steamcommunity.com/app/1745510/discussions/0/6333797474860240085/",
+                    "description": "Mod thread"
+                },
+				{
+                    "isModal": true,
+                    "modalId": "lunacid_respawn",
+                    "isVideo": "true",
+                    "caption": "",
+                    "link": "https://www.youtube.com/embed/D22zZ34LvuQ",
+                    "description": "Video"
+                },
+				{
+					"link": "https://store.steampowered.com/app/1745510/Lunacid/",
+					"description": "Steam page"
+				}
             ]
         }
     ],
     "prototypes": [
+		{
+            "id": "parabiosis",
+            "name": "Parabiosis",
+            "context": "Sparkling Vinegar",
+            "year": "2021-2022",
+            "platforms": "PC",
+            "image": "/img/projects/parabiosis.jpg",
+            "links": [
+                {
+                    "link": "parabiosis",
+                    "description": "Features"
+                }
+            ]
+        },
         {
             "id": "magichat",
             "name": "Magic Hat",

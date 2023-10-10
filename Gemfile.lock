@@ -255,9 +255,11 @@ GEM
     unf_ext (0.0.8.2)
     unf_ext (0.0.8.2-x64-mingw32)
     unicode-display_width (1.7.0)
+    webrick (1.8.1)
     zeitwerk (2.6.12)
 
 PLATFORMS
+  x64-mingw-ucrt
   x64-mingw32
   x86_64-linux
 
@@ -268,6 +270,7 @@ DEPENDENCIES
   jemoji
   kramdown (>= 2.3.0)
   tzinfo-data
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.2.1
