@@ -13,4 +13,4 @@ permalink: projects/parabiosis
     <hr>
 </div>
 
-{% include projects/parabiosis-videos.html sections=site.data.parabiosis-videos.pb %}
+{% include_relative parabiosis-videos.html sections=site.data.parabiosis-videos.pb %}

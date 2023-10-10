@@ -10,8 +10,10 @@ permalink: /projects/freelancing
 
 {% include projectTabs.html %}
 
+{% include projectList.html projects=site.data.Projects.freelancing folder="freelancing" %}
+
 <div class="centered">
-	<h3>I'm still waiting for the projects to be released.</h3>
+	<h3>I'm still waiting for more projects to be released.</h3>
 	<br/>
 	<img height="320" width="320" src="{{ 'img/emojis/1f605.svg' | relative_url }}" />
 	<br/>

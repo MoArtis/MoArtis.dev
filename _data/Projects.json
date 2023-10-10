@@ -1,5 +1,25 @@
 {
-    "proGames": [
+    "freelancing": [
+		{
+			"id": "swoon",
+            "name": "Swoon! Earth Escape",
+            "context": "Cranky Alien Games",
+            "year": "2021-2023",
+            "platforms": "Switch, PS4, PS5, Xbox One, PC",
+            "image": "/img/projects/freelancing/swoon.jpg",
+            "links": [
+                {
+                    "link": "https://store.steampowered.com/app/1673460/Swoon_Earth_Escape/",
+                    "description": "Steam page"
+                },
+				{
+                    "link": "https://www.nintendo.com/us/store/products/swoon-earth-escape-switch/",
+                    "description": "Nintendo store"
+                }
+            ],
+		}
+	],
+	"proGames": [
 		{
             "id": "mmdoc",
             "name": "Might & Magic: Duel of Champions",

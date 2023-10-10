@@ -1,4 +1,5 @@
 <div class="container-fluid">
+	{{ include.fuck }}
     {% for project in include.projects %}
         <div class="row">
             <div class="col-md-12">
@@ -43,8 +44,12 @@
             </div>
             <div class="col-md-6">
                 <div class="project-description">
+				{% if include.folder %}
+					{% assign descriptionPath = "projects/" | append: include.folder | append: "/" | append: project.id | append: ".html" %}
+				{% else %}
                     {% assign descriptionPath = "projects/" | append: project.id | append: ".html" %}
-                    {% include {{ descriptionPath }} gallery=project.gallery %}
+				{% endif %}
+                    {% include_relative {{ descriptionPath }} gallery=project.gallery %}
                 </div>
             </div>
         </div>
