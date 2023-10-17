@@ -34,10 +34,9 @@
                     "isModal": true,
                     "modalId": "cb_inventoryPrototype",
                     "isVideo": "true",
-					"isRelative": true,
                     "caption": "",
-                    "src": "/img/projects/cb/cb-TetrominoInventory.mp4",
-                    "description": "Video Prototype"
+                    "link": "https://www.youtube.com/embed/AhxvOd-2niI",
+                    "description": "Inventory Prototype"
                 },
             ],
 		}
