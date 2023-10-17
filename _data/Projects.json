@@ -17,6 +17,29 @@
                     "description": "Nintendo store"
                 }
             ],
+		},
+		{
+			"id": "corbo",
+            "name": "Iron Corbo: Kung Fu Janitor",
+            "context": "2D OS GAMES",
+            "year": "2020",
+            "platforms": "PC",
+            "image": "/img/projects/freelancing/corbo.jpg",
+            "links": [
+                {
+                    "link": "https://store.steampowered.com/app/2185250/Iron_Corbo_Kung_Fu_Janitor/",
+                    "description": "Steam page"
+                },
+				{
+                    "isModal": true,
+                    "modalId": "cb_inventoryPrototype",
+                    "isVideo": "true",
+					"isRelative": true,
+                    "caption": "",
+                    "src": "/img/projects/cb/cb-TetrominoInventory.mp4",
+                    "description": "Video Prototype"
+                },
+            ],
 		}
 	],
 	"proGames": [
