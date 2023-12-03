@@ -11,10 +11,10 @@ permalink: /aboutme/
 ![me]({{ "/img/profile.jpg" | relative_url }}){: .center-block :}{: .profile :}
 
 I'm a French **game developer** living in **Wuhan, China** who just wants to **ship games** and engage with **talented people**!
-I've used to work for **Ubisoft** as a **Game Designer**. My role there was to ensure that the targeted  **player experience** was well-documented and communicated among the team.
+I used to work for **Ubisoft** as a **Game Designer**. My role there was to ensure that the targeted  **player experience** was well-documented and communicated among the team.
 
 After more than 7 years at Ubisoft, I made a **leap of faith** and started to develop my own games. This allows me to pursue my desire to learn new skills and refocus on **programming**.
-Nowadays, I juggle between **developing my own games and supporting other developers** through contract works.
+Nowadays, I juggle between **developing my games and supporting other developers** through contract work.
 
 Check out [my projects]({{ "/projects" | relative_url }}) and please consider [hiring me](#hire-me). 😉 
 
