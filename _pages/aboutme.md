@@ -8,7 +8,8 @@ use-site-title: true
 permalink: /aboutme/
 ---
 
-![me]({{ "/img/profile.jpg" | relative_url }}){: .center-block :}{: .profile :}
+<div><img src="/img/profile.jpg" alt="me" class="center-block profile"></div>
+<!-- ![me]({{ "/img/profile.jpg" | relative_url }}){: .center-block :}{: .profile :} -->
 
 I'm a French **game developer** living in **Wuhan, China** who just wants to **ship games** and engage with **talented people**!
 I used to work for **Ubisoft** as a **Game Designer**. My role there was to ensure that the targeted  **player experience** was well-documented and communicated among the team.

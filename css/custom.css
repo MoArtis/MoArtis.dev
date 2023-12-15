@@ -45,6 +45,7 @@ layout: null
 img.profile {
   border: 4px solid {{ site.text-col }};
   border-radius: 10%;
+  width: 250px;
 }
 
 body {
