@@ -21,7 +21,8 @@
   <div class="big-img intro-header">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <!-- <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"> -->
+        <div class="col-lg-12 col-md-12">
           <div class="{{ include.type }}-heading">
             <h1>
               {% if page.header_title %}
@@ -30,12 +31,12 @@
                 {{ page.title }}
               {% endif %}
             </h1>
-            {% if page.header_subtitle %}
+            {% if page.header_subtitle or page.subtitle %}
               {% if include.type == "page" %}
                   <hr class="small">
-                  <span class="{{ include.type }}-subheading">{{ page.header_subtitle }}</span>
+                  <span class="{{ include.type }}-subheading">{% if page.header_subtitle %}{{ page.header_subtitle }}{% else %}{{ page.subtitle }}{% endif %}</span>
               {% else %}
-              <h2 class="{{ include.type }}-subheading">{{ page.header_subtitle }}</h2>
+              <h2 class="{{ include.type }}-subheading">{% if page.header_subtitle %}{{ page.header_subtitle }}{% else %}{{ page.subtitle }}{% endif %}</h2>
               {% endif %}
             {% endif %}
         
@@ -53,15 +54,16 @@
 <div class="intro-header no-img">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <!-- <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"> -->
+      <div class="col-lg-12 col-md-12">
         <div class="{{ include.type }}-heading">
           <h1>{% if page.header_title %}{{ page.header_title }}{% else %}{{ page.title }}{% endif %}</h1>
-		  {% if page.header_subtitle %}
+		  {% if page.header_subtitle or page.subtitle %}
 		    {% if include.type == "page" %}
             <hr class="small">
-            <span class="{{ include.type }}-subheading">{{ page.header_subtitle }}</span>
+            <span class="{{ include.type }}-subheading">{% if page.header_subtitle %}{{ page.header_subtitle }}{% else %}{{ page.subtitle }}{% endif %}</span>
 			{% else %}
-			<h2 class="{{ include.type }}-subheading">{{ page.header_subtitle }}</h2>
+			<h2 class="{{ include.type }}-subheading">{% if page.header_subtitle %}{{ page.header_subtitle }}{% else %}{{ page.subtitle }}{% endif %}</h2>
 			{% endif %}
 		  {% endif %}
 		  

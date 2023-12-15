@@ -182,6 +182,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .project-section {
 	text-align: center;
+  margin-bottom: 30px;
 }
 
 .project-description > p {

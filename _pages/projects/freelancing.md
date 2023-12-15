@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Freelancing
-noheader: true
-use-site-title: true
-meta-description: I have been working with other developers over the years.
+subtitle: I have been working with other developers over the years.
+use-site-title: false
 category: projects
 permalink: /projects/freelancing
 ---

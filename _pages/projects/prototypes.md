@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Prototypes
-noheader: true
-use-site-title: true
-meta-description: Some interesting prototypes from game jams or cancelled projects.
+subtitle: Some interesting prototypes from game jams or cancelled projects.
+use-site-title: false
 category: projects
 permalink: /projects/prototypes
 ---

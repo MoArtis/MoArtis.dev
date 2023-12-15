@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Game Mods
-noheader: true
-use-site-title: true
-meta-description: 'A great way to learn about game development: Modifying existing games.'
+subtitle: 'A great way to learn about game development: Modifying existing games.'
+use-site-title: false
 category: projects
 permalink: /projects/mods
 ---

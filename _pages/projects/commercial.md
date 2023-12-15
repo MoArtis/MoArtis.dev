@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Commercial Games
-noheader: true
-use-site-title: true
-meta-description: A selection of the commercial games I worked on.
+subtitle: A selection of the commercial games I worked on.
+use-site-title: false
 category: projects
 permalink: /projects/commercial
 ---
