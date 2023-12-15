@@ -55,7 +55,7 @@
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div class="{{ include.type }}-heading">
-          <h1>{% if page.header_title %}{{ page.header_title }}{% else %}<br/>{% endif %}</h1>
+          <h1>{% if page.header_title %}{{ page.header_title }}{% else %}{{ page.title }}{% endif %}</h1>
 		  {% if page.header_subtitle %}
 		    {% if include.type == "page" %}
             <hr class="small">

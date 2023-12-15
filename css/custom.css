@@ -182,7 +182,6 @@ h1,h2,h3,h4,h5,h6 {
 
 .project-section {
 	text-align: center;
-    padding: 40px 0 0 0;
 }
 
 .project-description > p {
@@ -430,4 +429,9 @@ h1,h2,h3,h4,h5,h6 {
 	height: 352px;
 	width: 100%;
 	text-align: center;
+}
+
+.container
+{
+  padding-top: 30px;
 }
