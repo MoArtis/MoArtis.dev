@@ -3,8 +3,7 @@ layout: page
 title: About me
 header_title: Welcome!
 header_subtitle:  I'm Mathieu Philippe.<br>Game Designer 🎲 and Code enthusiast. 👩‍💻
-meta-description: I'm Mathieu Philippe.<br>Game Designer 🎲 and Code enthusiast. 👩‍💻
-use-site-title: true
+meta-description: I'm Mathieu Philippe. Game Designer 🎲 and Code enthusiast. 👩‍💻
 permalink: /aboutme/
 ---
 

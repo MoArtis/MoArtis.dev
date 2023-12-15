@@ -266,7 +266,7 @@ h1,h2,h3,h4,h5,h6 {
 .hexagon {
     clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
     background: url({{ site.avatar | relative_url }}) no-repeat;
-    background-size: auto;
+    background-size: 124px;
     background-position: center;
     height: 110px;
     width: 100px;
