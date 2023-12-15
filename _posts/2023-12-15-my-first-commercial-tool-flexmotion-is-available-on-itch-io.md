@@ -3,6 +3,7 @@ layout: post
 title: My first commercial tool FlexMotion is available on Itch.io
 subtitle: Please consider buying it~ 🥲
 bigimg: /img/posts/flexmotion/flexmotion-widecover.jpg
+share-img: /img/posts/flexmotion/flexmotion-socialmedia.jpg
 tags: [tools, gamedev]
 ---
 

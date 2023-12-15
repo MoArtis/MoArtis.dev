@@ -4,7 +4,7 @@
 title: Mathieu Philippe's hideout
 
 # Short description of your site
-description: A virtual trinket bowl for my games, projects and my thoughts. Also my professional game design and development portfolio. 
+description: I'm Mathieu Philippe. Game Designer 🎲 and Code enthusiast. 👩‍💻 This is my personal portfolio and blog.
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -96,7 +96,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MoArtis.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "MoArtis.dev"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
