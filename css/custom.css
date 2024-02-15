@@ -49,8 +49,9 @@ img.profile {
 }
 
 body {
-  font-family: 'MontserratRegular', 'Times New Roman', serif;
+  font-family: 'Montserrat', 'Times New Roman', serif;
   font-size: 16px;
+  font-weight: 400;
   color: {{ site.text-col }};
   position: relative;
   background-color: {{ site.page-col }};
@@ -66,7 +67,8 @@ p {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'MontserratBlack', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 900;
 }
 
 .skill {
@@ -112,7 +114,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .post-subtitle {
-    font-family: 'MontserratRegular';
+    font-family: 'Montserrat';
+    font-weight: 400;
 }
 
 .modal-body {
@@ -162,7 +165,8 @@ h1,h2,h3,h4,h5,h6 {
 /* PROJECTS */
 
 .project h4 {
-    font-family: 'MontserratRegular';
+    font-family: 'Montserrat';
+    font-weight: 400;
     margin-bottom: 20px;
 }
 
@@ -176,7 +180,7 @@ h1,h2,h3,h4,h5,h6 {
 	font-size: 27px;
 	line-height: 1.1;
 	display: block;
-	font-family: 'MontserratRegular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 300;
 	margin: 10px 0 0;
 }
@@ -304,7 +308,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .navbar-title {
     float: left;
-    font-family: MontserratBlack;
+    font-family: Montserrat;
     font-size: 18px;
     font-weight: 400;
     color:
