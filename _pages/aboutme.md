@@ -114,19 +114,24 @@ We can also get in touch via [UpWork](https://www.upwork.com/freelancers/~01cf10
 
 I can't wait to hear more about you and your project! 😄
 
-<form accept-charset="UTF-8" action="https://getform.io/f/ca7ae041-06a5-474c-8e7f-53d85bc9371b" method="POST" enctype="multipart/form-data">
-       <div class="form-group">
-        <label for="inputEmail" required="required">Email address</label>
-        <input type="email" name="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
-      </div>
-      <div class="form-group">
-        <label for="inputName">Name</label>
-        <input type="text" name="name" class="form-control" id="inputName" placeholder="Enter your name" required="required">
-      </div>
-	  <div class="form-group">
-        <label for="Message">Message</label>
-        <textarea style="resize: vertical;" name="Message" class="form-control" id="Message" placeholder="Enter a nice message" required="required" rows="5"></textarea>
-      </div>
-	  <hr>
-      <button type="submit" class="btn btn-primary">Submit</button>
+<form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="632343e1-62d8-4b39-b143-8d03c170c125">
+  <div class="form-group">
+    <label for="inputEmail">Email address</label>
+    <input required="required" type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="Enter your email.">
+  </div>
+    
+  <div class="form-group">
+    <label for="inputName">Name</label>
+    <input class="form-control" type="text" name="name" required="required" placeholder="Enter your name.">
+  </div>
+    
+  <div class="form-group">
+    <label for="Message">Message</label>
+    <textarea class="form-control" style="resize: vertical;" rows="5" name="message" placeholder="Enter a nice message!" required="required"></textarea>
+  </div>
+    
+    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+    <hr>
+    <button type="submit" class="btn btn-primary">Submit</button>
 </form>
