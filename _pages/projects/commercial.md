@@ -9,4 +9,4 @@ permalink: /projects/commercial
 
 {% include projectTabs.html %}
 
-{% include projectList.html projects=site.data.Projects.proGames %}
+{% include projectList.html projects=site.data.Projects.commercial folder="commercial" %}

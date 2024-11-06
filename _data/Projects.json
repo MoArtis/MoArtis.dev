@@ -1,285 +1,381 @@
 {
-    "freelancing": [
-		{
-			"id": "swoon",
-            "name": "Swoon! Earth Escape",
-            "context": "Cranky Alien Games",
-            "year": "2021-2023",
-            "platforms": "Switch, PS4, PS5, Xbox One, PC",
-            "image": "/img/projects/freelancing/swoon.jpg",
-            "links": [
-                {
-                    "link": "https://store.steampowered.com/app/1673460/Swoon_Earth_Escape/",
-                    "description": "Steam page"
-                },
-				{
-                    "link": "https://www.nintendo.com/us/store/products/swoon-earth-escape-switch/",
-                    "description": "Nintendo store"
-                }
-            ],
-		},
-		{
-			"id": "corbo",
-            "name": "Iron Corbo: Kung Fu Janitor",
-            "context": "2D OS GAMES",
-            "year": "2020",
-            "platforms": "PC",
-            "image": "/img/projects/freelancing/corbo.jpg",
-            "links": [
-                {
-                    "link": "https://store.steampowered.com/app/2185250/Iron_Corbo_Kung_Fu_Janitor/",
-                    "description": "Steam page"
-                },
-				{
-                    "isModal": true,
-                    "modalId": "cb_inventoryPrototype",
-                    "isVideo": "true",
-                    "caption": "",
-                    "link": "https://www.youtube.com/embed/AhxvOd-2niI",
-                    "description": "Inventory Prototype"
-                },
-            ],
-		}
-	],
-	"proGames": [
-		{
-            "id": "mmdoc",
-            "name": "Might & Magic: Duel of Champions",
-            "context": "Ubisoft Quebec",
-            "year": "2012-2014",
-            "platforms": "PS3, X360, PC, iOS",
-            "image": "/img/projects/mmdoc.jpg",
-            "links": [
-                {
-                    "link": "https://www.ubisoft.com/en-us/game/might-and-magic-duel-of-champions/",
-                    "description": "Official site"
-                },
-                {
-                    "isModal": true,
-                    "modalId": "mmdoc_overview",
-                    "isVideo": "true",
-                    "caption": "",
-                    "link": "https://www.youtube.com/embed/mT9Ih7c9shY",
-                    "description": "Overview"
-                },
-                {
-                    "link": "https://duelofchampions.gamepedia.com/Duel_of_Champions_Wiki",
-                    "description": "Wiki"
-                }
-            ],
-            "gallery": {
-                "id": "mmdoc-cards",
-                "caption": "",                
-                "content": [
-                    {
-                        "url": "/img/mmdoc_cards/Rakshasa_Raja.png",
-                        "caption": "Rakshasa Raja"
-                    },
-                    {
-                        "url": "/img/mmdoc_cards/Kal-Azaar,_Invoker_of_Agony.png",
-                        "caption": "Kal-Azaar, Invoker of Agony"
-                    },
-                    {
-                        "url": "/img/mmdoc_cards/Throne_of_Renewal.png",
-                        "caption": "Throne of Renewal"
-                    },
-                    {
-                        "url": "/img/mmdoc_cards/Mother_Namtaru,_Invoker_of_Death.png",
-                        "caption": "Mother Namtaru, Invoker of Death"
-                    }
-                ]
-            }
-        },
+  "freelancing": [
+    {
+      "id": "ascentofashes",
+      "name": "Ascent of Ashes",
+      "context": "Vivid Storm Games",
+      "year": "2024",
+      "platforms": "PC",
+      "image": "/img/projects/freelancing/ascentofashes.webp",
+      "links": [
         {
-            "id": "wof",
-            "name": "Wheel of Fortune",
-            "context": "Ubisoft Chengdu",
-            "year": "2017",
-            "platforms": "PS4, XOne, Switch",
-            "image": "/img/projects/wof.jfif",
-            "links": [
-                {
-                    "link": "https://www.ubisoft.com/en-us/game/wheel-of-fortune/",
-                    "description": "Official site"
-                },
-                {
-                    "isModal": true,
-                    "modalId": "wof_trailer",
-                    "isVideo": "true",
-                    "caption": "",
-                    "link": "https://www.youtube.com/embed/jEd1ts8lT9M",
-                    "description": "Trailer"
-                },
-                {
-                    "isModal": true,
-                    "modalId": "wof_letsplay",
-                    "isVideo": "true",
-                    "caption": "",
-                    "link": "https://www.youtube.com/embed/OMO122NiWvI",
-                    "description": "Let's play"
-                }
-            ]
-        },
-        {
-            "id": "rabbidscr",
-            "name": "Rabbids Crazy Rush",
-            "context": "Ubisoft Chengdu",
-            "year": "2015-2016",
-            "platforms": "iOS",
-            "image": "/img/projects/rabbidscr.jpg",
-            "links": [
-                {
-                    "link": "https://www.ubisoft.com/en-us/game/rabbids-crazy-rush/",
-                    "description": "Official site"
-                }
-            ]
+          "link": "https://store.steampowered.com/app/2209140/Ascent_of_Ashes/",
+          "description": "Steam page"
         }
-    ],
-    "mods": [
+      ]
+    },
+    {
+      "id": "dreadout",
+      "name": "DreadOut Remastered Collection",
+      "context": "Cranky Alien Games, Soft Source Publishing, Digital Happiness",
+      "year": "2023-2024",
+      "platforms": "Switch, PS5",
+      "image": "/img/projects/freelancing/dreadout.webp",
+      "links": [
         {
-            "id": "reshdp",
-            "name": "Resident Evil Seamless HD Project",
-            "context": "RESHDP Team",
-            "year": "2018-2019",
-            "platforms": "PC (via Dolphin)",
-            "video": "/img/projects/reshdp.webm",
-            "links": [
-                {
-                    "link": "https://www.reshdp.com/",
-                    "description": "Official site"
-                },
-                {
-                    "isModal": true,
-                    "modalId": "reshdp_re3shdp",
-                    "isVideo": "true",
-                    "caption": "",
-                    "link": "https://www.youtube.com/embed/OrRq9oA_Tq8",
-                    "description": "RE3SHDP"
-                },
-                {
-                    "link": "https://discord.gg/HCZWV6q",
-                    "description": "Discord"
-                }
-            ]
-        },
-        {
-            "id": "rcgmod",
-            "name": "River City Girls - UserXpMod",
-            "context": "Myself",
-            "year": "2019-2020",
-            "platforms": "PC",
-            "image": "/img/projects/rcgmod.jpg",
-            "links": [
-                {
-                    "link": "https://steamcommunity.com/app/1049320/discussions/0/1633040337762777417/",
-                    "description": "Mod thread"
-                },
-				{
-                    "link": "https://github.com/MoArtis/RCGMod",
-                    "description": "Github"
-                },
-				{
-					"link": "https://store.steampowered.com/app/1049320/River_City_Girls/",
-					"description": "Steam page"
-				}
-            ]
-        },
-        {
-            "id": "lunacidmod",
-            "name": "Lunacid - Quality of Life Mod",
-            "context": "Myself",
-            "year": "2023",
-            "platforms": "PC",
-            "image": "/img/projects/lunacidmod.jpg",
-            "links": [
-				{
-                    "link": "https://steamcommunity.com/app/1745510/discussions/0/6333797474860240085/",
-                    "description": "Mod thread"
-                },
-				{
-                    "isModal": true,
-                    "modalId": "lunacid_respawn",
-                    "isVideo": "true",
-                    "caption": "",
-                    "link": "https://www.youtube.com/embed/D22zZ34LvuQ",
-                    "description": "Video"
-                },
-				{
-					"link": "https://store.steampowered.com/app/1745510/Lunacid/",
-					"description": "Steam page"
-				}
-            ]
+          "isModal": true,
+          "modalId": "dreadout_trailer",
+          "isVideo": "true",
+          "caption": "",
+          "link": "https://www.youtube.com/embed/FKRWUG3b1ss",
+          "description": "Trailer"
         }
-    ],
-    "prototypes": [
-		{
-            "id": "parabiosis",
-            "name": "Parabiosis",
-            "context": "Sparkling Vinegar",
-            "year": "2021-2022",
-            "platforms": "PC",
-            "image": "/img/projects/parabiosis.jpg",
-            "links": [
-                {
-                    "link": "parabiosis",
-                    "description": "Features"
-                }
-            ]
+      ]
+    },
+    {
+      "id": "swoon",
+      "name": "Swoon! Earth Escape",
+      "context": "Cranky Alien Games",
+      "year": "2021-2023",
+      "platforms": "Switch, PS4, PS5, Xbox One, PC",
+      "image": "/img/projects/freelancing/swoon.jpg",
+      "links": [
+        {
+          "link": "https://store.steampowered.com/app/1673460/Swoon_Earth_Escape/",
+          "description": "Steam page"
         },
         {
-            "id": "magichat",
-            "name": "Magic Hat",
-            "context": "Sparkling Vinegar",
-            "year": 2020,
-            "platforms": "PC",
-            "video": "/img/projects/bullethell.webm",
-            "links": [
-                {
-                    "link": "https://moartis.github.io/MagicHatBuilds/builds/",
-                    "description": "Builds"
-                },
-                {
-                    "link": "https://moartis.itch.io/magic-hat",
-                    "description": "Solo 72 hours Gamejam"
-                }
-            ]
-        },
-        {
-            "id": "tod",
-            "name": "Type or Die",
-            "context": "Sparkling Vinegar",
-            "year": 2019,
-            "platforms": "PC",
-            "image": "/img/projects/tod.jpg",
-            "links": [
-                {
-                    "link": "https://moartis.github.io/TypeOrDieWeeklyBuilds",
-                    "description": "Builds"
-                }
-            ]
-        },
-        {
-            "id": "robocombo",
-            "name": "Robo Combo",
-            "context": "Sparkling Vinegar",
-            "year": 2018,
-            "platforms": "PC",
-            "image": "/img/projects/robocombo.jpg",
-            "links": [
-                {
-                    "isModal": true,
-                    "modalId": "robocombo-proto-video",
-                    "isVideo": "true",
-                    "caption": "",
-                    "link": "https://www.youtube.com/embed/QisNB_NfMq4",
-                    "description": "Prototype video"
-                },
-                {
-				    "isRelative": true,
-                    "link": "/assets/RoboCombo-20180924.zip",
-                    "description": "PC Build"
-                }
-            ]
+          "link": "https://www.nintendo.com/us/store/products/swoon-earth-escape-switch/",
+          "description": "Nintendo store"
         }
-    ]
+      ]
+    },
+    {
+      "id": "corbo",
+      "name": "Iron Corbo: Kung Fu Janitor",
+      "context": "2D OS GAMES",
+      "year": "2020",
+      "platforms": "PC",
+      "image": "/img/projects/freelancing/corbo.jpg",
+      "links": [
+        {
+          "link": "https://store.steampowered.com/app/2185250/Iron_Corbo_Kung_Fu_Janitor/",
+          "description": "Steam page"
+        },
+        {
+          "isModal": true,
+          "modalId": "cb_inventoryPrototype",
+          "isVideo": "true",
+          "caption": "",
+          "link": "https://www.youtube.com/embed/AhxvOd-2niI",
+          "description": "Inventory Prototype"
+        }
+      ]
+    }
+  ],
+  "commercial": [
+    {
+      "id": "mmdoc",
+      "name": "Might & Magic: Duel of Champions",
+      "context": "Ubisoft Quebec",
+      "year": "2012-2014",
+      "platforms": "PS3, X360, PC, iOS",
+      "image": "/img/projects/commercial/mmdoc.jpg",
+      "links": [
+        {
+          "link": "https://www.ubisoft.com/en-us/game/might-and-magic-duel-of-champions/",
+          "description": "Official site"
+        },
+        {
+          "isModal": true,
+          "modalId": "mmdoc_overview",
+          "isVideo": "true",
+          "caption": "",
+          "link": "https://www.youtube.com/embed/mT9Ih7c9shY",
+          "description": "Overview"
+        },
+        {
+          "link": "https://duelofchampions.gamepedia.com/Duel_of_Champions_Wiki",
+          "description": "Wiki"
+        }
+      ],
+      "gallery": {
+        "id": "mmdoc-cards",
+        "caption": "",
+        "content": [
+          {
+            "url": "/img/mmdoc_cards/Rakshasa_Raja.png",
+            "caption": "Rakshasa Raja"
+          },
+          {
+            "url": "/img/mmdoc_cards/Kal-Azaar,_Invoker_of_Agony.png",
+            "caption": "Kal-Azaar, Invoker of Agony"
+          },
+          {
+            "url": "/img/mmdoc_cards/Throne_of_Renewal.png",
+            "caption": "Throne of Renewal"
+          },
+          {
+            "url": "/img/mmdoc_cards/Mother_Namtaru,_Invoker_of_Death.png",
+            "caption": "Mother Namtaru, Invoker of Death"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wof",
+      "name": "Wheel of Fortune",
+      "context": "Ubisoft Chengdu",
+      "year": "2017",
+      "platforms": "PS4, XOne, Switch",
+      "image": "/img/projects/commercial/wof.jfif",
+      "links": [
+        {
+          "link": "https://www.ubisoft.com/en-us/game/wheel-of-fortune/",
+          "description": "Official site"
+        },
+        {
+          "isModal": true,
+          "modalId": "wof_trailer",
+          "isVideo": "true",
+          "caption": "",
+          "link": "https://www.youtube.com/embed/jEd1ts8lT9M",
+          "description": "Trailer"
+        },
+        {
+          "isModal": true,
+          "modalId": "wof_letsplay",
+          "isVideo": "true",
+          "caption": "",
+          "link": "https://www.youtube.com/embed/OMO122NiWvI",
+          "description": "Let's play"
+        }
+      ]
+    },
+    {
+      "id": "rabbidscr",
+      "name": "Rabbids Crazy Rush",
+      "context": "Ubisoft Chengdu",
+      "year": "2015-2016",
+      "platforms": "iOS",
+      "image": "/img/projects/commercial/rabbidscr.jpg",
+      "links": [
+        {
+          "link": "https://www.ubisoft.com/en-us/game/rabbids-crazy-rush/",
+          "description": "Official site"
+        }
+      ]
+    },
+    {
+      "id": "scft",
+      "name": "Super Cricket Fighter Turbo",
+      "context": "Sparkling Vinegar",
+      "year": "2015",
+      "platforms": "iOS",
+      "image": "/img/projects/commercial/scft.gif",
+      "links": [
+        {
+          "link": "https://www.pocketgamer.com/super-cricket-fighter-turbo/whack-balls-at-your-friends-with-super-cricket-fighter-turbo-now-out-on-ios/",
+          "description": "Pocket Gamer"
+        },
+        {
+          "link": "https://sparkling-vinegar.itch.io/super-cricket-fighter-turbo",
+          "description": "Itch.io"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "id": "flexmotion",
+      "name": "FlexMotion - Play-on-demand animator",
+      "context": "Myself",
+      "year": "2023",
+      "platforms": "Unity",
+      "image": "/img/projects/tools/flexmotion.webp",
+      "links": [
+        {
+          "link": "https://flexmotion.moartis.dev/",
+          "description": "Official site"
+        },
+        {
+          "isModal": true,
+          "modalId": "flexmotion_trailer",
+          "isVideo": "true",
+          "caption": "",
+          "link": "https://www.youtube.com/embed/kCuEN-G6RzA",
+          "description": "Trailer"
+        },
+        {
+          "link": "https://assetstore.unity.com/packages/tools/animation/flexmotion-267629",
+          "description": "Asset Store"
+        }
+      ]
+    },
+    {
+      "id": "unitune",
+      "name": "Unitune - Tracker music player for WebGL and more",
+      "context": "Myself",
+      "year": "2024",
+      "platforms": "Unity",
+      "image": "/img/projects/tools/unitune.webp",
+      "links": [
+        {
+          "link": "https://unitune.moartis.dev/",
+          "description": "Official site"
+        },
+        {
+          "link": "https://assetstore.unity.com/packages/tools/audio/unitune-293303",
+          "description": "Asset Store"
+        }
+      ]
+    }
+  ],
+  "mods": [
+    {
+      "id": "reshdp",
+      "name": "Resident Evil Seamless HD Project",
+      "context": "RESHDP Team",
+      "year": "2018-2019",
+      "platforms": "PC (via Dolphin)",
+      "video": "/img/projects/reshdp.webm",
+      "links": [
+        {
+          "link": "https://www.reshdp.com/",
+          "description": "Official site"
+        },
+        {
+          "isModal": true,
+          "modalId": "reshdp_re3shdp",
+          "isVideo": "true",
+          "caption": "",
+          "link": "https://www.youtube.com/embed/OrRq9oA_Tq8",
+          "description": "RE3SHDP"
+        },
+        {
+          "link": "https://discord.gg/HCZWV6q",
+          "description": "Discord"
+        }
+      ]
+    },
+    {
+      "id": "rcgmod",
+      "name": "River City Girls - UserXpMod",
+      "context": "Myself",
+      "year": "2019-2020",
+      "platforms": "PC",
+      "image": "/img/projects/rcgmod.jpg",
+      "links": [
+        {
+          "link": "https://steamcommunity.com/app/1049320/discussions/0/1633040337762777417/",
+          "description": "Mod thread"
+        },
+        {
+          "link": "https://github.com/MoArtis/RCGMod",
+          "description": "Github"
+        },
+        {
+          "link": "https://store.steampowered.com/app/1049320/River_City_Girls/",
+          "description": "Steam page"
+        }
+      ]
+    },
+    {
+      "id": "lunacidmod",
+      "name": "Lunacid - Quality of Life Mod",
+      "context": "Myself",
+      "year": "2023",
+      "platforms": "PC",
+      "image": "/img/projects/lunacidmod.jpg",
+      "links": [
+        {
+          "link": "https://steamcommunity.com/app/1745510/discussions/0/6333797474860240085/",
+          "description": "Mod thread"
+        },
+        {
+          "isModal": true,
+          "modalId": "lunacid_respawn",
+          "isVideo": "true",
+          "caption": "",
+          "link": "https://www.youtube.com/embed/D22zZ34LvuQ",
+          "description": "Video"
+        },
+        {
+          "link": "https://store.steampowered.com/app/1745510/Lunacid/",
+          "description": "Steam page"
+        }
+      ]
+    }
+  ],
+  "prototypes": [
+    {
+      "id": "parabiosis",
+      "name": "Parabiosis",
+      "context": "Sparkling Vinegar",
+      "year": "2021-2022",
+      "platforms": "PC",
+      "image": "/img/projects/prototypes/parabiosis.jpg",
+      "links": [
+        {
+          "link": "parabiosis",
+          "description": "Features"
+        }
+      ]
+    },
+    {
+      "id": "magichat",
+      "name": "Magic Hat",
+      "context": "Sparkling Vinegar",
+      "year": 2020,
+      "platforms": "PC",
+      "video": "/img/projects/prototypes/magichat.webm",
+      "links": [
+        {
+          "link": "https://moartis.github.io/MagicHatBuilds/builds/",
+          "description": "Builds"
+        },
+        {
+          "link": "https://moartis.itch.io/magic-hat",
+          "description": "Solo 72 hours Gamejam"
+        }
+      ]
+    },
+    {
+      "id": "tod",
+      "name": "Type or Die",
+      "context": "Sparkling Vinegar",
+      "year": 2019,
+      "platforms": "PC",
+      "image": "/img/projects/prototypes/tod.jpg",
+      "links": [
+        {
+          "link": "https://moartis.github.io/TypeOrDieWeeklyBuilds",
+          "description": "Builds"
+        }
+      ]
+    },
+    {
+      "id": "robocombo",
+      "name": "Robo Combo",
+      "context": "Sparkling Vinegar",
+      "year": 2018,
+      "platforms": "PC",
+      "image": "/img/projects/prototypes/robocombo.jpg",
+      "links": [
+        {
+          "isModal": true,
+          "modalId": "robocombo-proto-video",
+          "isVideo": "true",
+          "caption": "",
+          "link": "https://www.youtube.com/embed/QisNB_NfMq4",
+          "description": "Prototype video"
+        },
+        {
+          "isRelative": true,
+          "link": "/assets/RoboCombo-20180924.zip",
+          "description": "PC Build"
+        }
+      ]
+    }
+  ]
 }

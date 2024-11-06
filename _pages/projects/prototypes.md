@@ -9,4 +9,4 @@ permalink: /projects/prototypes
 
 {% include projectTabs.html %}
 
-{% include projectList.html projects=site.data.Projects.prototypes %}
+{% include projectList.html projects=site.data.Projects.prototypes folder="prototypes" %}
