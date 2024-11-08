@@ -33,6 +33,24 @@
       ]
     },
     {
+      "id": "automaticsystem",
+      "name": "Automatic System AR",
+      "context": "Oniki studios, Automatic System",
+      "year": "2023",
+      "platforms": "iOS, Android",
+      "image": "/img/projects/freelancing/automaticsystem.webp",
+      "links": [
+        {
+          "isModal": true,
+          "modalId": "automaticsystem_trailer",
+          "isVideo": "true",
+          "caption": "",
+          "link": "https://www.youtube.com/embed/vprXwayoO_E",
+          "description": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "swoon",
       "name": "Swoon! Earth Escape",
       "context": "Cranky Alien Games",
@@ -47,6 +65,20 @@
         {
           "link": "https://www.nintendo.com/us/store/products/swoon-earth-escape-switch/",
           "description": "Nintendo store"
+        }
+      ]
+    },
+    {
+      "id": "machinelearning",
+      "name": "Upscaling research project",
+      "context": "Undisclosed giant gaming company",
+      "year": "2020",
+      "platforms": "Undisclosed platforms",
+      "image": "/img/projects/freelancing/machinelearning.webp",
+      "links": [
+        {
+          "link": "https://www.reshdp.com/re3/",
+          "description": "RESHDP"
         }
       ]
     },
@@ -74,6 +106,50 @@
     }
   ],
   "commercial": [
+    {
+      "id": "wof",
+      "name": "Wheel of Fortune",
+      "context": "Ubisoft Chengdu",
+      "year": "2017",
+      "platforms": "PS4, XOne, Switch",
+      "image": "/img/projects/commercial/wof.jfif",
+      "links": [
+        {
+          "link": "https://www.ubisoft.com/en-us/game/wheel-of-fortune/",
+          "description": "Official site"
+        },
+        {
+          "isModal": true,
+          "modalId": "wof_trailer",
+          "isVideo": "true",
+          "caption": "",
+          "link": "https://www.youtube.com/embed/jEd1ts8lT9M",
+          "description": "Trailer"
+        },
+        {
+          "isModal": true,
+          "modalId": "wof_letsplay",
+          "isVideo": "true",
+          "caption": "",
+          "link": "https://www.youtube.com/embed/OMO122NiWvI",
+          "description": "Let's play"
+        }
+      ]
+    },
+    {
+      "id": "rabbidscr",
+      "name": "Rabbids Crazy Rush",
+      "context": "Ubisoft Chengdu",
+      "year": "2015-2016",
+      "platforms": "iOS",
+      "image": "/img/projects/commercial/rabbidscr.jpg",
+      "links": [
+        {
+          "link": "https://www.ubisoft.com/en-us/game/rabbids-crazy-rush/",
+          "description": "Official site"
+        }
+      ]
+    },
     {
       "id": "mmdoc",
       "name": "Might & Magic: Duel of Champions",
@@ -123,50 +199,6 @@
       }
     },
     {
-      "id": "wof",
-      "name": "Wheel of Fortune",
-      "context": "Ubisoft Chengdu",
-      "year": "2017",
-      "platforms": "PS4, XOne, Switch",
-      "image": "/img/projects/commercial/wof.jfif",
-      "links": [
-        {
-          "link": "https://www.ubisoft.com/en-us/game/wheel-of-fortune/",
-          "description": "Official site"
-        },
-        {
-          "isModal": true,
-          "modalId": "wof_trailer",
-          "isVideo": "true",
-          "caption": "",
-          "link": "https://www.youtube.com/embed/jEd1ts8lT9M",
-          "description": "Trailer"
-        },
-        {
-          "isModal": true,
-          "modalId": "wof_letsplay",
-          "isVideo": "true",
-          "caption": "",
-          "link": "https://www.youtube.com/embed/OMO122NiWvI",
-          "description": "Let's play"
-        }
-      ]
-    },
-    {
-      "id": "rabbidscr",
-      "name": "Rabbids Crazy Rush",
-      "context": "Ubisoft Chengdu",
-      "year": "2015-2016",
-      "platforms": "iOS",
-      "image": "/img/projects/commercial/rabbidscr.jpg",
-      "links": [
-        {
-          "link": "https://www.ubisoft.com/en-us/game/rabbids-crazy-rush/",
-          "description": "Official site"
-        }
-      ]
-    },
-    {
       "id": "scft",
       "name": "Super Cricket Fighter Turbo",
       "context": "Sparkling Vinegar",
@@ -186,6 +218,41 @@
     }
   ],
   "tools": [
+    {
+      "id": "clipsync",
+      "name": "ClipSync - Animation events timeline editor",
+      "context": "Myself",
+      "year": "Planned 2025",
+      "platforms": "Unity",
+      "image": "/img/projects/tools/clipsync.webp",
+      "links": [
+        {
+          "isModal": true,
+          "modalId": "clipsync_preview",
+          "caption": "",
+          "link": "/img/projects/tools/clipsync_preview.webp",
+          "description": "Preview"
+        }
+      ]
+    },
+    {
+      "id": "unitune",
+      "name": "Unitune - Tracker music player for WebGL and more",
+      "context": "Myself",
+      "year": "2024",
+      "platforms": "Unity",
+      "image": "/img/projects/tools/unitune.webp",
+      "links": [
+        {
+          "link": "https://unitune.moartis.dev/",
+          "description": "Official site"
+        },
+        {
+          "link": "https://assetstore.unity.com/packages/tools/audio/unitune-293303",
+          "description": "Asset Store"
+        }
+      ]
+    },
     {
       "id": "flexmotion",
       "name": "FlexMotion - Play-on-demand animator",
@@ -211,50 +278,32 @@
           "description": "Asset Store"
         }
       ]
-    },
-    {
-      "id": "unitune",
-      "name": "Unitune - Tracker music player for WebGL and more",
-      "context": "Myself",
-      "year": "2024",
-      "platforms": "Unity",
-      "image": "/img/projects/tools/unitune.webp",
-      "links": [
-        {
-          "link": "https://unitune.moartis.dev/",
-          "description": "Official site"
-        },
-        {
-          "link": "https://assetstore.unity.com/packages/tools/audio/unitune-293303",
-          "description": "Asset Store"
-        }
-      ]
     }
   ],
   "mods": [
     {
-      "id": "reshdp",
-      "name": "Resident Evil Seamless HD Project",
-      "context": "RESHDP Team",
-      "year": "2018-2019",
-      "platforms": "PC (via Dolphin)",
-      "video": "/img/projects/reshdp.webm",
+      "id": "lunacidmod",
+      "name": "Lunacid - Quality of Life Mod",
+      "context": "Myself",
+      "year": "2023",
+      "platforms": "PC",
+      "image": "/img/projects/lunacidmod.jpg",
       "links": [
         {
-          "link": "https://www.reshdp.com/",
-          "description": "Official site"
+          "link": "https://steamcommunity.com/app/1745510/discussions/0/6333797474860240085/",
+          "description": "Mod thread"
         },
         {
           "isModal": true,
-          "modalId": "reshdp_re3shdp",
+          "modalId": "lunacid_respawn",
           "isVideo": "true",
           "caption": "",
-          "link": "https://www.youtube.com/embed/OrRq9oA_Tq8",
-          "description": "RE3SHDP"
+          "link": "https://www.youtube.com/embed/D22zZ34LvuQ",
+          "description": "Video"
         },
         {
-          "link": "https://discord.gg/HCZWV6q",
-          "description": "Discord"
+          "link": "https://store.steampowered.com/app/1745510/Lunacid/",
+          "description": "Steam page"
         }
       ]
     },
@@ -281,28 +330,28 @@
       ]
     },
     {
-      "id": "lunacidmod",
-      "name": "Lunacid - Quality of Life Mod",
-      "context": "Myself",
-      "year": "2023",
-      "platforms": "PC",
-      "image": "/img/projects/lunacidmod.jpg",
+      "id": "reshdp",
+      "name": "Resident Evil Seamless HD Project",
+      "context": "RESHDP Team",
+      "year": "2018-2019",
+      "platforms": "PC (via Dolphin)",
+      "video": "/img/projects/reshdp.webm",
       "links": [
         {
-          "link": "https://steamcommunity.com/app/1745510/discussions/0/6333797474860240085/",
-          "description": "Mod thread"
+          "link": "https://www.reshdp.com/re3/",
+          "description": "Official site"
         },
         {
           "isModal": true,
-          "modalId": "lunacid_respawn",
+          "modalId": "reshdp_re3shdp",
           "isVideo": "true",
           "caption": "",
-          "link": "https://www.youtube.com/embed/D22zZ34LvuQ",
-          "description": "Video"
+          "link": "https://www.youtube.com/embed/OrRq9oA_Tq8",
+          "description": "RE3SHDP"
         },
         {
-          "link": "https://store.steampowered.com/app/1745510/Lunacid/",
-          "description": "Steam page"
+          "link": "https://discord.gg/HCZWV6q",
+          "description": "Discord"
         }
       ]
     }

@@ -22,7 +22,9 @@
                         allowfullscreen></iframe>
                 </div>
                 {% else %}
-                <img src="{{ include.src }}" alt="{{ include.caption }}">
+                <div class="modal-video embed-responsive embed-responsive-16by9 z-depth-1-half">
+                    <img src="{{ include.src }}" alt="{{ include.caption }}">
+                </div>
                 {% endif %}
 
             </div>
