@@ -50,6 +50,24 @@
         }
       ]
     },
+	{
+      "id": "azura",
+      "name": "Azura's Crystals",
+      "context": "Cranky Alien Games",
+      "year": "2024",
+      "platforms": "Switch, PS5, Xbox Series, PC",
+      "image": "/img/projects/freelancing/azura.webp",
+      "links": [
+        {
+          "link": "https://store.steampowered.com/app/3104580/Azuras_Crystals",
+          "description": "Steam page"
+        },
+        {
+          "link": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Azura-s-Crystals-2675961.html",
+          "description": "Nintendo store"
+        }
+      ]
+    },
     {
       "id": "swoon",
       "name": "Swoon! Earth Escape",
@@ -204,8 +222,12 @@
       "context": "Sparkling Vinegar",
       "year": "2015",
       "platforms": "iOS",
-      "image": "/img/projects/commercial/scft.gif",
+      "image": "/img/projects/commercial/scft.webp",
       "links": [
+	    {
+	      "link": "https://store.steampowered.com/app/3522620/Super_Cricket_Fighter_Turbo/",
+          "description": "Steam"
+        },
         {
           "link": "https://www.pocketgamer.com/super-cricket-fighter-turbo/whack-balls-at-your-friends-with-super-cricket-fighter-turbo-now-out-on-ios/",
           "description": "Pocket Gamer"
